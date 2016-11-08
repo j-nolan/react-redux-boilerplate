@@ -1,7 +1,7 @@
 {
   "name": "swanly",
   "version": "1.0.0",
-  "description": "A map game to challenge shortest paths",
+  "description": "A boilerplate for developping react/redux web applications",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server -d",

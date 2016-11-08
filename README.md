@@ -39,4 +39,4 @@ The project has the following structure:
 - The `reducers` directory should contain all the reducers. All new reducers should be combined in `app.js`
 
 ## LocalStorage
-The application uses the browser's LocalStorage to store it's state when the page is refreshed. The state is stored every time the state tree is updated, but is limited to one storage per second using [Lodash's throttle](https://www.npmjs.com/package/lodash.throttle). This behaviour can be changed in `src/configureStore.js`.
+The application uses the browser's LocalStorage to store it's state when the page is refreshed. The state is stored every time the state tree is updated, but is throttled to one storage per second using [Lodash's throttle](https://www.npmjs.com/package/lodash.throttle). This behaviour can be changed in `src/configureStore.js`.
