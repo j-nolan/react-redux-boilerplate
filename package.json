@@ -1,5 +1,5 @@
 {
-  "name": "swanly",
+  "name": "react-redux-boilerplate",
   "version": "1.0.0",
   "description": "A boilerplate for developping react/redux web applications",
   "main": "index.js",
